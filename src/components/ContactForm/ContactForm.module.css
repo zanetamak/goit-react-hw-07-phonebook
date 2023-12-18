@@ -1,0 +1,54 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+
+.inputForm {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputNumber,
+.inputName {
+    margin: 10px;
+    width: 100%;
+    border: 1px solid #e4e9f0;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+.inputNumber:focus,
+.inputName:focus {
+    outline: 2px solid #e80dc0;
+}
+
+.inputForm:focus {
+    outline: 1px solid #e4e9f0;
+}
+
+.formBtn {
+    width: 100px;
+    background-color: #f3f6f9e0;
+    border: none;
+    color: #3e454c34;
+    padding: 10px;
+    text-align: center;
+    transition: all 0.5s;
+    margin: 10px auto;
+}
+
+.formBtn:hover {
+    background-color: #315fba;
+    color: #fff;
+}
